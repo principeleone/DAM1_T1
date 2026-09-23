@@ -19,14 +19,19 @@ class Pregunta3Activity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         binding.btnCalcular3.setOnClickListener(this)
+        binding.btnRegresar3.setOnClickListener(this)
     }
 
     override fun onClick(p0: View) {
 
         when(p0.id){
             R.id.btnCalcular3 -> calcularDesperdicio()
+            R.id.btn_regresar3 -> regresarMain()
         }
 
+    }
+    private fun regresarMain() {
+        finish()
     }
 
     fun calcularDesperdicio(){

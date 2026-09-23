@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnPregunta1.setOnClickListener(this)
         binding.btnPregunta2.setOnClickListener(this)
         binding.btnPregunta3.setOnClickListener(this)
+        binding.btnPregunta4.setOnClickListener(this)
         binding.btnPregunta5.setOnClickListener(this)
         binding.btnPregunta6.setOnClickListener(this)
     }
@@ -35,6 +36,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
           R.id.btn_pregunta1 ->irPregunta(1)
           R.id.btn_pregunta2 ->irPregunta(2)
           R.id.btn_pregunta3 ->irPregunta(3)
+          R.id.btn_pregunta4 ->irPregunta(4)
           R.id.btn_Pregunta5 ->irPregunta(5)
           R.id.btn_pregunta6 ->irPregunta(6)
 
@@ -46,6 +48,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             1 -> startActivity(Intent(this, Pregunta1Activity::class.java))
             2 -> startActivity(Intent(this, Pregunta2Activity::class.java))
             3 -> startActivity(Intent(this, Pregunta3Activity::class.java))
+            4 -> startActivity(Intent(this, Pregunta4Activity::class.java))
             5 -> startActivity(Intent(this, pregunta5Activity::class.java))
             6 -> startActivity(Intent(this, Pregunta6Activity::class.java))
         }

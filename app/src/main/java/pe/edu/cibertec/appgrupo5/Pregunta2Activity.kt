@@ -25,6 +25,7 @@ class Pregunta2Activity : AppCompatActivity(), View.OnClickListener {
             insets
         }
         binding.btnCalcularPreg2.setOnClickListener (this)
+        binding.btnRegresar2.setOnClickListener(this)
     }
 
     fun calcularRecargo() {
@@ -59,10 +60,14 @@ class Pregunta2Activity : AppCompatActivity(), View.OnClickListener {
             )
         }
     }
+    private fun regresarMain() {
+        finish()
+    }
 
     override fun onClick(p0: View) {
         when(p0.id){
             R.id.btnCalcularPreg2 -> calcularRecargo()
+            R.id.btn_regresar2 -> regresarMain()
         }
     }
 }

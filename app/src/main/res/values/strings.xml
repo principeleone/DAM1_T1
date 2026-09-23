@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">AppGrupo5</string>
+    <string name="titutloActivity3">PREGUNTA 3</string>
+    <string name="subtituloActivity3">DESPERDICIO DE COMIDA EN RESTAURANTE</string>
+    <string name="inputActivity3">Ingrese el valor en gramos</string>
     <string name="titulo_ejercicio_1">PREGUNTA 1</string>
     <string name="text_horas_adicionales">Ingrese las horas adicionales (h)</string>
     <string name="text_calcular" >CALCULAR</string>

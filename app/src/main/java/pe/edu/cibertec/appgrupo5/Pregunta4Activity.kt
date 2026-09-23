@@ -17,14 +17,19 @@ class Pregunta4Activity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         binding.btnCalcular.setOnClickListener(this)
+        binding.btnRegresar4.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.btnCalcular -> calcularTarifaExtra()
+            R.id.btn_regresar4 -> regresarMain()
         }
     }
 
+    private fun regresarMain() {
+        finish()
+    }
     private fun calcularTarifaExtra() {
         val minutosTexto = binding.etMinutos.text.toString().trim()
 

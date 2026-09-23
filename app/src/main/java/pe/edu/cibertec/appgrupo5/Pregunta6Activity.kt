@@ -22,12 +22,17 @@ class Pregunta6Activity : AppCompatActivity(), View.OnClickListener {
             insets
         }
         binding.btnCalcularPreg6.setOnClickListener(this)
+        binding.btnRegresar6.setOnClickListener(this)
     }
 
     override fun onClick(p0: View?) {
         when (p0?.id) {
             R.id.btnCalcularPreg6 -> calcularEstancia()
+            R.id.btn_regresar6 -> regresarMain()
         }
+    }
+    private fun regresarMain() {
+        finish()
     }
 
     fun calcularEstancia() {

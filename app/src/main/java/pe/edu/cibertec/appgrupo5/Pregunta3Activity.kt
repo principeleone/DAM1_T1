@@ -18,13 +18,13 @@ class Pregunta3Activity : AppCompatActivity(), View.OnClickListener {
         enableEdgeToEdge()
         setContentView(binding.root)
 
-        binding.btnCalcular.setOnClickListener(this)
+        binding.btnCalcular3.setOnClickListener(this)
     }
 
     override fun onClick(p0: View) {
 
         when(p0.id){
-            R.id.btnCalcular -> calcularDesperdicio()
+            R.id.btnCalcular3 -> calcularDesperdicio()
         }
 
     }

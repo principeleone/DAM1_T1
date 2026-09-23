@@ -16,13 +16,13 @@ class Pregunta4Activity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityPregunta4Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnCalcular.setOnClickListener(this)
+        binding.btnCalcular4.setOnClickListener(this)
         binding.btnRegresar4.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         when (v?.id) {
-            R.id.btnCalcular -> calcularTarifaExtra()
+            R.id.btn_calcular4 -> calcularTarifaExtra()
             R.id.btn_regresar4 -> regresarMain()
         }
     }
@@ -46,7 +46,7 @@ class Pregunta4Activity : AppCompatActivity(), View.OnClickListener {
         }
 
         if (minutosAdicionales <= 10) {
-            binding.tvResultado.text = "Tiempo de tolerancia para desalojo y cambio de turno."
+            binding.tvResultado4.text = "Tiempo de tolerancia para desalojo y cambio de turno."
         } else {
             val minutosComputables = minutosAdicionales - 10
             val montoAdicional = 30.00 + (minutosComputables * 2.50)
@@ -57,7 +57,7 @@ class Pregunta4Activity : AppCompatActivity(), View.OnClickListener {
                 Monto adicional a facturar: ${String.format(Locale.US, "S/ %.2f", montoAdicional)}
             """.trimIndent()
 
-            binding.tvResultado.text = resultado
+            binding.tvResultado4.text = resultado
         }
     }
 }

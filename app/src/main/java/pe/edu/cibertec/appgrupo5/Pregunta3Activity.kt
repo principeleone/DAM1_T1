@@ -40,7 +40,7 @@ class Pregunta3Activity : AppCompatActivity(), View.OnClickListener {
 
         if(gramos <= 100){
 
-            binding.tvResultado.text =
+            binding.tvResultado3.text =
                 "Plato dentro del margen admisible de consumo."
 
         }else{
@@ -49,7 +49,7 @@ class Pregunta3Activity : AppCompatActivity(), View.OnClickListener {
 
             val penalizacion = 15 + (exceso * 0.12)
 
-            binding.tvResultado.text =
+            binding.tvResultado3.text =
                 "Gramos sobrantes: $gramos g\n" +
                         "Exceso de desperdicio: $exceso g\n" +
                         "Penalización total: S/ %.2f".format(penalizacion)

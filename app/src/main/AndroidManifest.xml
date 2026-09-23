@@ -30,7 +30,10 @@
             </intent-filter>
 
         </activity>
-
+        <activity
+            android:name=".Pregunta1Activity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

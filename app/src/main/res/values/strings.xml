@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">AppGrupo5</string>
+    <string name="titulo_ejercicio_1">PREGUNTA 1</string>
+    <string name="text_horas_adicionales">Ingrese las horas adicionales (h)</string>
+    <string name="text_calcular" >CALCULAR</string>
+    <string name="txtbtn_Pregunta1">PREGUNTA 1</string>
+    <string name="txtbtn_regresar1">REGRESAR</string>
 
     <!--textos -->
     <string name="titulo_pregunta5">-Control de Consumo de Energía-</string>

@@ -31,3 +31,12 @@ replay_pid*
 *.iml
 *.ipr
 *.iws
+
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle-wrapper.jar
+
+local.properties
+

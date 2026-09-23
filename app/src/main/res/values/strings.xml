@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">AppGrupo5</string>
+
+
+    <string name="p4_titulo">Alquiler de Canchas Sintéticas</string>
+    <string name="p4_hint_minutos">Ingrese minutos adicionales</string>
+    <string name="p4_btn_calcular">Calcular Tarifa</string>
     <string name="titutloActivity3">PREGUNTA 3</string>
     <string name="subtituloActivity3">DESPERDICIO DE COMIDA EN RESTAURANTE</string>
     <string name="inputActivity3">Ingrese el valor en gramos</string>

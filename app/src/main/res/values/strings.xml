@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AppGrupo5</string>
+
+    <!--textos -->
+    <string name="titulo_pregunta5">-Control de Consumo de Energía-</string>
+    <string name="I_potencia">-Ingrese potencia en watts (W)-</string>
+    <string name="btn_calcular">-Calcular Recargo-</string>
+    <string name="resultado_inicial">Resultados:</string>
+    <string name="error_vacio">-Por favor ingrese un valor en watts.-</string>
+    <string name="consumo_normal">-Consumo eléctrico dentro de la capacidad asignada.-</string>
 </resources>

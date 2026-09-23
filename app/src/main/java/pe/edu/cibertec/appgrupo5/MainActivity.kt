@@ -24,13 +24,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         binding.btnPregunta1.setOnClickListener(this)
-        binding.tbnPregunta5.setOnClickListener(this)
+        binding.btnPregunta5.setOnClickListener(this)
     }
 
     override fun onClick(p0: View) {
       when(p0.id){
           R.id.btn_pregunta1 ->irPregunta01()
-          R.id.tbn_Pregunta5 ->irPregunta05()
+          R.id.btn_Pregunta5 ->irPregunta05()
 
       }
     }

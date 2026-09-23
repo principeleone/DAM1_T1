@@ -23,7 +23,7 @@ class Pregunta1Activity : AppCompatActivity(), View.OnClickListener {
             insets
         }
 
-        binding.btnCalcular.setOnClickListener(this)
+        binding.btnCalcular1.setOnClickListener(this)
         binding.btnRegresar.setOnClickListener(this)
     }
 
@@ -55,7 +55,7 @@ class Pregunta1Activity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when(v.id){
-            R.id.btn_calcular-> mostrarMensaje()
+            R.id.btn_calcular1-> mostrarMensaje()
             R.id.btn_regresar-> regresarMain()
         }
 
